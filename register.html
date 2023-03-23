@@ -1,0 +1,85 @@
+
+      <!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>touhid</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body{
+                background-color: yellow
+            }
+            h2{
+                text-align: center
+            }     
+        </style>
+    </head>
+    <h2>Registeration </h2>
+    <body bgcolor="skyblue" text="red">
+    <center>
+            <form action="register.php" method="post"> 
+        <label> Firstname </label>
+        <br>
+        <input type="text" name="firstname" placeholder="fisrtname" /> <br>
+        <label> Middlename </label>
+        <br>
+        <input type="text" name="middlename" placeholder="middlename" /> <br>
+        <label> Lastname </label>
+        <br> 
+        <label> <input type="text" name="lastname"  placeholder="lastname"></label> <br>
+        <label>Gender </label>
+        <br>
+        <!--<input type="text" name="gender" placeholder="MALE/FEMALE/OTHERS">-->
+        <table>
+        <tr>
+        <td><input type="radio" name="gender" value="Male"/>Male</td>  
+        <tr>  
+        <td><input type="radio" name="gender" value="Female"/>Female</td></tr>  
+        </table>
+        <br>  
+        <label>
+            Country code 
+        </label>
+        <br>
+        <input type="text" name="countryCode" placeholder="+91"> <br>
+        <label>
+            Phone 
+        </label>
+        <br>
+        <input type="text" name="phone" placeholder="Phone number"> <br>
+        Address
+        <br>
+       <input type="text" name="address" placeholder="Full address">
+       
+       <br>
+        <br>
+        <label>
+        Email
+        </label>
+        <br>
+        <input type="email" name="email" placeholder="Email"> <br>
+        <br> 
+        <label>
+        Password:
+        </label>
+        <br> 
+        <input type="Password" name="pass" placeholder="Enter password"> <br>
+        <br> 
+        <label>
+        Re-type password:
+        </label>
+        <br>
+        <input type="Password" name="repass" placeholder="conform password"> <br> <br>
+        
+        <input type="submit" value="register">
+            </form> 
+    </center>
+        
+        
+    </body>
+</html>
+ 
